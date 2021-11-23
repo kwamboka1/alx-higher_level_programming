@@ -9,35 +9,34 @@
  */
 int check_cycle(listint_t *list)
 {
-	listint_t *p2;
-	listint_t *prev;
+	listint_t *head;
+	listint_t *first;
 
-	p2 = list;
-	prev = list;
-	while (list && p2 && p2->next)
+	if(list == NULL)
+		return(0);
+	head = list;
+	first = head->next;
+
+	if (first == NULL)
+		return(0);
+
+	while(1)
 	{
-		list = list->next;
-		p2 = p2->next->next;
 
-		if (list == p2)
-		{
-			list = prev;
-			prev =  p2;
-			while (1)
-			{
-				p2 = prev;
-				while (p2->next != list && p2->next != prev)
-				{
-					p2 = p2->next;
-				}
-				if (p2->next == list)
-					break;
+		if(first == head)
+			return(1);
 
-				list = list->next;
-			}
-			return (1);
-		}
+		first = first->next;/* 1st node */
+		if (first == NULL)
+			return(0);
+
+		first = first->next;/*2nd node*/
+
+		if (first == NULL)
+			return(0);
+
+		head = head->next;/*3rd node*/
+		if (head == NULL)
+			return(0);
 	}
-
-	return (0);
 }
