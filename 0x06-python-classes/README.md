@@ -4,7 +4,7 @@ Project done during **Software Engineering studies** at **ALX School**. It aims 
 
 ## Technologies
 * Python Scripts are written with Python 3.8.5
-* C files are compiled using `gcc 4.8.4`
+* The code uses the pycodestyle (version 2.7.*)
 * Tested on Ubuntu 20.04 LTS
 
 ## Files
