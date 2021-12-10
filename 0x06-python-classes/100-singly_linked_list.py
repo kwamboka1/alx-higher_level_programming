@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""class Node: that defines a node of a singly linked"""
+"""class Node: that defines a node of a singly linked list"""
 
 
 class Node:
@@ -29,22 +29,10 @@ class Node:
             raise TypeError("next_node must be a Node object")
         self.__next_node = value
 
-"""class SinglyLinkedList: that defines a singly linked list"""
+"""class SinglyLinkedList: The class that defines a singly linked list"""
 
 
-class SinglyLinkedList:    
-    def __str__(self):
-        rtn = ""
-        ptr = self.__head
-
-        while ptr is not None:
-            rtn += str(ptr.data)
-            if ptr.next_node is not None:
-                rtn += "\n"
-            ptr = ptr.next_node
-
-        return rtn
-
+class SinglyLinkedList:
     """A method to initialize a private instatnce attribute"""
     def __init__(self):
         self.__head = None
