@@ -34,16 +34,16 @@ class Node:
 
 class SinglyLinkedList:
    def __str__(self):
-        str1 = ""
+        rtn = ""
         ptr = self.__head
 
         while ptr is not None:
-            str1 += str(ptr.data)
+            rtn += str(ptr.data)
             if ptr.next_node is not None:
-                str1 += "\n"
+                rtn += "\n"
             ptr = ptr.next_node
 
-        return str1
+        return rtn
     """A method to initialize a private instatnce attribute"""
     def __init__(self):
         self.__head = None
