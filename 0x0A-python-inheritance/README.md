@@ -1,4 +1,4 @@
-# Inheritance Project done during **Software Engineering studies** at **ALX School**. It aims to learn about inheritance, superclass, baseclass and subclass in **Python**.
+## Inheritance Project done during **Software Engineering studies** at **ALX School**. It aims to learn about inheritance, superclass, baseclass and subclass in **Python**.
 
 ## Technologies
 * Python Scripts are written with Python 3.8.5
