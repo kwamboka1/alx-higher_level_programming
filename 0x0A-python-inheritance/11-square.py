@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 Rectangle = __import__('9-rectangle').Rectangle
-
-
 """ Class that defines a Square from Rectangle class """
+
+
 class Square(Rectangle):
     """ Method that initializes a Square """
     def __init__(self, size):
@@ -16,7 +16,7 @@ class Square(Rectangle):
 
         return super().area()
 
-    """ Special method that returns a printable string """
+    """ Special/magical method that returns a printable string """
     def __str__(self):
 
         return "[Square] {}/{}".format(self.__size, self.__size)
