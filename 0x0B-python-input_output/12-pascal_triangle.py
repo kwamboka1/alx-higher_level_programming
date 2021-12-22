@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-def pascal_triangle(n):
-    """ Function that returns the pascal triangle
+""" Function that returns the pascal triangle
 
     Args:
         n: number of lines
@@ -8,7 +7,10 @@ def pascal_triangle(n):
     Returns:
         matrix: a matrix with the pascal triangle
 
-    """
+"""
+
+
+def pascal_triangle(n):
 
     matrix = []
     prev = []
