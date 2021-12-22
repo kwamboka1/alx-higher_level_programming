@@ -11,8 +11,7 @@
 
 
 def pascal_triangle(n):
-
-    matrix = []
+    myList = []
     prev = []
 
     for i in range(n):
@@ -26,7 +25,7 @@ def pascal_triangle(n):
                 res_list += [prev[p1] + prev[p2]]
             p1 += 1
             p2 += 1
-        matrix.append(res_list)
+        myList.append(res_list)
         prev = res_list[:]
 
-    return matrix
+    return myList
