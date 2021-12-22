@@ -1,8 +1,6 @@
 #!/usr/bin/python3
-
-
-BaseGeometry = __import__('7-base_geometry').BaseGeometry
 """ Class that defines a rectangle from BaseGeometry Class """
+BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 
 class Rectangle(BaseGeometry):
@@ -24,4 +22,4 @@ class Rectangle(BaseGeometry):
     """
     def __str__(self):
 
-        return "[Rectangle] {:d}/{:d}".format(self.__width, self.__height)
+                return "[Rectangle] {:d}/{:d}".format(self.__width, self.__height)
