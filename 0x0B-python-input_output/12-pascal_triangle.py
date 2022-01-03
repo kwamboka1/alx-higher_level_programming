@@ -1,10 +1,11 @@
 #!/usr/bin/python3
+""" Function that creates a pascal triangle and
+    returns empty list if n <= 0
+"""
 
 
 def pascal_triangle(n):
-    """ Function that creates a pascal triangle and
-    returns empty list if n <= 0
-    """
+
     if n <= 0:
         return ([])
 
