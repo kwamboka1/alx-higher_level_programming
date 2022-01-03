@@ -8,7 +8,7 @@ def pascal_triangle(n):
         n: number of lines
 
     Returns:
-         Empty list: if n <= 0
+         Empty list: if n <= 0 otherwise pascal triangle
 
     """
     if n <= 0:
