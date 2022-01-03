@@ -1,6 +1,12 @@
 #!/usr/bin/python3
-""" Function that creates a pascal triangle and
-    returns empty list if n <= 0
+""" Function that returns the pascal triangle
+
+    Args:
+        n: number of lines
+
+    Returns:
+        matrix: a matrix with the pascal triangle
+
 """
 
 
