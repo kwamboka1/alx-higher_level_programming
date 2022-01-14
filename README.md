@@ -1,7 +1,7 @@
 # Higher-level programming - Python
 Module of **High-level programming** and **Python**, carried out during **Software Engineering studies** at **[ALX School](ALX)**.
 ## Technologies
-* Shell Scripts are written in Bash 4.3.11
+* Shell Scripts are written in Bash 5.0.17(1)
 * Python Scripts are written with Python3 3.8.5
 * Tested on Ubuntu 20.04 LTS
 
