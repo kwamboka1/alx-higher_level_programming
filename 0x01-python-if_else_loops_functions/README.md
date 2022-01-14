@@ -2,7 +2,7 @@
 Project done during **Software Engineering studies** at **ALX School**. It aims to learn about if/else statements, loops, range and functions in **Python**.
 
 ## Technologies
-* Shell Scripts are written in Bash 4.3.11(1)
+* Shell Scripts are written in Bash 5.0.17(1)
 * Python Scripts are written with Python 4.4.3
 * C files are compiled using `gcc 4.8.4`
 * Tested on Ubuntu 20.04 LTS
