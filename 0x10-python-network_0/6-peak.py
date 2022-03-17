@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Finds a peak inside a list """
+""" Finds a peak of unsorted integers of a list """
 
 
 def find_peak(list_of_integers):
@@ -12,9 +12,11 @@ def find_peak(list_of_integers):
 
     if mid - 1 < 0 and mid + 1 >= length:
         return li[mid]
+
     elif mid - 1 < 0:
         return li[mid] if li[mid] > li[mid + 1] else li[mid + 1]
-    elif mid + 1 >= length:
+
+elif mid + 1 >= length:
         return li[mid] if li[mid] > li[mid - 1] else li[mid - 1]
 
     if li[mid - 1] < li[mid] > li[mid + 1]:
@@ -22,4 +24,5 @@ def find_peak(list_of_integers):
 
     if li[mid + 1] > li[mid - 1]:
         return find_peak(li[mid:])
+
     return find_peak(li[:mid])
