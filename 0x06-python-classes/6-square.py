@@ -15,7 +15,7 @@ class Square:
         """ Method to returns the size value
         """
         return self.__size
-    
+
     @size.setter
     def size(self, value):
         """ Method to set the size value of the square object
